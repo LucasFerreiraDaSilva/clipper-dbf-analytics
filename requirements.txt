@@ -1,0 +1,23 @@
+# Requirements for Clipper DBF Analytics
+
+# Data Processing
+pandas>=1.5.0
+numpy>=1.24.0
+
+# Database
+SQLAlchemy>=2.0.0
+sqlalchemy-utils>=0.41.0
+
+# DBF Files
+dbfread>=2.0.7
+
+# Dashboard & Visualization
+streamlit>=1.28.0
+plotly>=5.14.0
+
+# Utilities
+python-dateutil>=2.8.2
+pytz>=2023.3
+
+# Optional: For better performance
+openpyxl>=3.10.0  # Excel export
